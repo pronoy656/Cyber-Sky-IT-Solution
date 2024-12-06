@@ -6,8 +6,12 @@ const Root = () => {
   return (
     <div>
       <h1>This is Root</h1>
-      <Navbar></Navbar>
-      <Outlet></Outlet>
+      <div className="flex space-x-4">
+        <div className="w-16 border">
+          <Navbar></Navbar>
+        </div>
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </div>
   );
