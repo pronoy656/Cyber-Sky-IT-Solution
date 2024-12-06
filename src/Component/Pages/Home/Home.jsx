@@ -13,10 +13,10 @@ const Home = () => {
     <div>
       <h1>This is Home page</h1>
       <div className="flex space-x-4">
-        <div className="w-40 border border-red-400">
+        <div className="w-40  border border-red-400">
           <h1>Fruits list</h1>
           <h1>Total Items: {fruits.length}</h1>
-          <div className="border">
+          <div className="border h-96 overflow-y-auto overflow-x-hidden scrollbar-thin">
             {fruits.map((fruit) => (
               <FruitCategory key={fruit.id} fruit={fruit}></FruitCategory>
             ))}
