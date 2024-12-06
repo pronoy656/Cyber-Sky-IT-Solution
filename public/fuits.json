@@ -1,137 +1,149 @@
 [
     {
-      "category": "fruit",
-      "name": "Apple",
-      "iconImage": "apple_icon.png",
-      "vitaminType": "Vitamin C",
-      "title": "Health benefits of an Apple",
-      "description": "Supports immune system and eye health",
-      "image1": "apple_image1.png",
-      "paragraph1": "Apples are rich in antioxidants and dietary fiber, which help in maintaining a healthy digestive system.",
-      "image2": "apple_image2.png",
-      "paragraph2": "Regular consumption of apples may lower the risk of heart disease and improve brain health."
-    },
+        "id": 1,
+        "category": "fruit",
+        "name": "Apple",
+        "iconImage": "apple_icon.png",
+        "vitaminType": "Vitamin C",
+        "title": "Health benefits of an Apple",
+        "description": "Supports immune system and eye health",
+        "image1": "apple_image1.png",
+        "paragraph1": "Apples are rich in antioxidants and dietary fiber, which help in maintaining a healthy digestive system.",
+        "image2": "apple_image2.png",
+        "paragraph2": "Regular consumption of apples may lower the risk of heart disease and improve brain health."
+      },
+      {
+        "id": 2,
+        "category": "fruit",
+        "name": "Banana",
+        "iconImage": "banana_icon.png",
+        "vitaminType": "Vitamin B6",
+        "title": "Health benefits of a Banana",
+        "description": "Boosts energy and supports digestion",
+        "image1": "banana_image1.png",
+        "paragraph1": "Bananas are a great source of natural energy due to their high potassium and carbohydrate content.",
+        "image2": "banana_image2.png",
+        "paragraph2": "They also promote digestive health by providing prebiotics and dietary fiber."
+      },
+      {
+        "id": 3,
+        "category": "fruit",
+        "name": "Orange",
+        "iconImage": "orange_icon.png",
+        "vitaminType": "Vitamin C",
+        "title": "Health benefits of an Orange",
+        "description": "Boosts immune system",
+        "image1": "orange_image1.png",
+        "paragraph1": "Oranges are packed with vitamin C, which helps strengthen the immune system and fight infections.",
+        "image2": "orange_image2.png",
+        "paragraph2": "They also contain antioxidants that may reduce inflammation and lower cholesterol."
+      },
+      {
+        "id": 4,
+        "category": "fruit",
+        "name": "Strawberry",
+        "iconImage": "strawberry_icon.png",
+        "vitaminType": "Vitamin C",
+        "title": "Health benefits of a Strawberry",
+        "description": "Supports skin health",
+        "image1": "strawberry_image1.png",
+        "paragraph1": "Strawberries are loaded with antioxidants and vitamin C, which promote healthy, glowing skin.",
+        "image2": "strawberry_image2.png",
+        "paragraph2": "They also have anti-inflammatory properties that can improve heart health."
+      },
+      {
+        "id": 5,
+        "category": "fruit",
+        "name": "Pineapple",
+        "iconImage": "pineapple_icon.png",
+        "vitaminType": "Vitamin C",
+        "title": "Health benefits of a Pineapple",
+        "description": "Aids digestion",
+        "image1": "pineapple_image1.png",
+        "paragraph1": "Pineapples contain bromelain, an enzyme that aids digestion and reduces inflammation.",
+        "image2": "pineapple_image2.png",
+        "paragraph2": "They are also rich in vitamin C, which boosts immunity and supports skin health."
+      },
+      {
+        "id": 6,
+        "category": "fruit",
+        "name": "Grapes",
+        "iconImage": "grapes_icon.png",
+        "vitaminType": "Vitamin K",
+        "title": "Health benefits of Grapes",
+        "description": "Promotes heart health",
+        "image1": "grapes_image1.png",
+        "paragraph1": "Grapes are rich in antioxidants like resveratrol, which support heart health.",
+        "image2": "grapes_image2.png",
+        "paragraph2": "They also help in reducing cholesterol and improving brain function."
+      },
+      {
+        "id": 7,
+        "category": "fruit",
+        "name": "Mango",
+        "iconImage": "mango_icon.png",
+        "vitaminType": "Vitamin A",
+        "title": "Health benefits of a Mango",
+        "description": "Enhances vision",
+        "image1": "mango_image1.png",
+        "paragraph1": "Mangoes are a rich source of vitamin A, which is essential for good vision.",
+        "image2": "mango_image2.png",
+        "paragraph2": "They also contain enzymes that improve digestion and promote healthy skin."
+      },
+      {
+        "id": 8,
+        "category": "fruit",
+        "name": "Papaya",
+        "iconImage": "papaya_icon.png",
+        "vitaminType": "Vitamin A",
+        "title": "Health benefits of a Papaya",
+        "description": "Improves digestion",
+        "image1": "papaya_image1.png",
+        "paragraph1": "Papayas are rich in papain, an enzyme that aids digestion and reduces bloating.",
+        "image2": "papaya_image2.png",
+        "paragraph2": "They also contain antioxidants that promote heart health and glowing skin."
+      },
+      {
+        "id": 9,
+        "category": "fruit",
+        "name": "Blueberry",
+        "iconImage": "blueberry_icon.png",
+        "vitaminType": "Vitamin C",
+        "title": "Health benefits of Blueberries",
+        "description": "Boosts brain function",
+        "image1": "blueberry_image1.png",
+        "paragraph1": "Blueberries are known as a superfood due to their high levels of antioxidants and brain-boosting properties.",
+        "image2": "blueberry_image2.png",
+        "paragraph2": "They may also help reduce the risk of heart disease and improve digestion."
+      },
+      {
+        "id": 10,
+        "category": "fruit",
+        "name": "Watermelon",
+        "iconImage": "watermelon_icon.png",
+        "vitaminType": "Vitamin A",
+        "title": "Health benefits of a Watermelon",
+        "description": "Hydrates the body",
+        "image1": "watermelon_image1.png",
+        "paragraph1": "Watermelons are rich in water content and electrolytes, making them a perfect hydrating fruit.",
+        "image2": "watermelon_image2.png",
+        "paragraph2": "They also contain lycopene, which supports heart health and reduces inflammation."
+      },
+      {
+        "id": 11,
+        "category": "vegetable",
+        "name": "Carrot",
+        "iconImage": "carrot_icon.png",
+        "vitaminType": "Vitamin A",
+        "title": "Health benefits of a Carrot",
+        "description": "Improves vision",
+        "image1": "carrot_image1.png",
+        "paragraph1": "Carrots are rich in beta-carotene, which is converted to vitamin A in the body and supports eye health.",
+        "image2": "carrot_image2.png",
+        "paragraph2": "They also boost the immune system and promote healthy skin."
+      },
     {
-      "category": "fruit",
-      "name": "Banana",
-      "iconImage": "banana_icon.png",
-      "vitaminType": "Vitamin B6",
-      "title": "Health benefits of a Banana",
-      "description": "Boosts energy and supports digestion",
-      "image1": "banana_image1.png",
-      "paragraph1": "Bananas are a great source of natural energy due to their high potassium and carbohydrate content.",
-      "image2": "banana_image2.png",
-      "paragraph2": "They also promote digestive health by providing prebiotics and dietary fiber."
-    },
-    {
-      "category": "fruit",
-      "name": "Orange",
-      "iconImage": "orange_icon.png",
-      "vitaminType": "Vitamin C",
-      "title": "Health benefits of an Orange",
-      "description": "Boosts immune system",
-      "image1": "orange_image1.png",
-      "paragraph1": "Oranges are packed with vitamin C, which helps strengthen the immune system and fight infections.",
-      "image2": "orange_image2.png",
-      "paragraph2": "They also contain antioxidants that may reduce inflammation and lower cholesterol."
-    },
-    {
-      "category": "fruit",
-      "name": "Strawberry",
-      "iconImage": "strawberry_icon.png",
-      "vitaminType": "Vitamin C",
-      "title": "Health benefits of a Strawberry",
-      "description": "Supports skin health",
-      "image1": "strawberry_image1.png",
-      "paragraph1": "Strawberries are loaded with antioxidants and vitamin C, which promote healthy, glowing skin.",
-      "image2": "strawberry_image2.png",
-      "paragraph2": "They also have anti-inflammatory properties that can improve heart health."
-    },
-    {
-      "category": "fruit",
-      "name": "Pineapple",
-      "iconImage": "pineapple_icon.png",
-      "vitaminType": "Vitamin C",
-      "title": "Health benefits of a Pineapple",
-      "description": "Aids digestion",
-      "image1": "pineapple_image1.png",
-      "paragraph1": "Pineapples contain bromelain, an enzyme that aids digestion and reduces inflammation.",
-      "image2": "pineapple_image2.png",
-      "paragraph2": "They are also rich in vitamin C, which boosts immunity and supports skin health."
-    },
-    {
-      "category": "fruit",
-      "name": "Grapes",
-      "iconImage": "grapes_icon.png",
-      "vitaminType": "Vitamin K",
-      "title": "Health benefits of Grapes",
-      "description": "Promotes heart health",
-      "image1": "grapes_image1.png",
-      "paragraph1": "Grapes are rich in antioxidants like resveratrol, which support heart health.",
-      "image2": "grapes_image2.png",
-      "paragraph2": "They also help in reducing cholesterol and improving brain function."
-    },
-    {
-      "category": "fruit",
-      "name": "Mango",
-      "iconImage": "mango_icon.png",
-      "vitaminType": "Vitamin A",
-      "title": "Health benefits of a Mango",
-      "description": "Enhances vision",
-      "image1": "mango_image1.png",
-      "paragraph1": "Mangoes are a rich source of vitamin A, which is essential for good vision.",
-      "image2": "mango_image2.png",
-      "paragraph2": "They also contain enzymes that improve digestion and promote healthy skin."
-    },
-    {
-      "category": "fruit",
-      "name": "Papaya",
-      "iconImage": "papaya_icon.png",
-      "vitaminType": "Vitamin A",
-      "title": "Health benefits of a Papaya",
-      "description": "Improves digestion",
-      "image1": "papaya_image1.png",
-      "paragraph1": "Papayas are rich in papain, an enzyme that aids digestion and reduces bloating.",
-      "image2": "papaya_image2.png",
-      "paragraph2": "They also contain antioxidants that promote heart health and glowing skin."
-    },
-    {
-      "category": "fruit",
-      "name": "Blueberry",
-      "iconImage": "blueberry_icon.png",
-      "vitaminType": "Vitamin C",
-      "title": "Health benefits of Blueberries",
-      "description": "Boosts brain function",
-      "image1": "blueberry_image1.png",
-      "paragraph1": "Blueberries are known as a superfood due to their high levels of antioxidants and brain-boosting properties.",
-      "image2": "blueberry_image2.png",
-      "paragraph2": "They may also help reduce the risk of heart disease and improve digestion."
-    },
-    {
-      "category": "fruit",
-      "name": "Watermelon",
-      "iconImage": "watermelon_icon.png",
-      "vitaminType": "Vitamin A",
-      "title": "Health benefits of a Watermelon",
-      "description": "Hydrates the body",
-      "image1": "watermelon_image1.png",
-      "paragraph1": "Watermelons are rich in water content and electrolytes, making them a perfect hydrating fruit.",
-      "image2": "watermelon_image2.png",
-      "paragraph2": "They also contain lycopene, which supports heart health and reduces inflammation."
-    },
-    {
-      "category": "vegetable",
-      "name": "Carrot",
-      "iconImage": "carrot_icon.png",
-      "vitaminType": "Vitamin A",
-      "title": "Health benefits of a Carrot",
-      "description": "Improves vision",
-      "image1": "carrot_image1.png",
-      "paragraph1": "Carrots are rich in beta-carotene, which is converted to vitamin A in the body and supports eye health.",
-      "image2": "carrot_image2.png",
-      "paragraph2": "They also boost the immune system and promote healthy skin."
-    },
-    {
+        "id": 12,
       "category": "vegetable",
       "name": "Spinach",
       "iconImage": "spinach_icon.png",
@@ -144,6 +156,7 @@
       "paragraph2": "It also contains antioxidants that reduce inflammation and support overall health."
     },
     {
+        "id": 13,
         "category": "vegetable",
         "name": "Broccoli",
         "iconImage": "broccoli_icon.png",
@@ -156,6 +169,7 @@
         "paragraph2": "It also contains fiber that supports digestion and helps maintain a healthy weight."
       },
       {
+        "id": 14,
         "category": "vegetable",
         "name": "Tomato",
         "iconImage": "tomato_icon.png",
@@ -168,6 +182,7 @@
         "paragraph2": "They also improve skin health and provide essential nutrients like potassium and vitamin K."
       },
       {
+        "id": 15,
         "category": "vegetable",
         "name": "Cucumber",
         "iconImage": "cucumber_icon.png",
@@ -180,6 +195,7 @@
         "paragraph2": "They also contain antioxidants that reduce inflammation and promote skin health."
       },
       {
+        "id": 16,
         "category": "vegetable",
         "name": "Bell Pepper",
         "iconImage": "bell_pepper_icon.png",
@@ -192,6 +208,7 @@
         "paragraph2": "They also help in boosting the immune system and reducing the risk of chronic diseases."
       },
       {
+        "id": 17,
         "category": "vegetable",
         "name": "Eggplant",
         "iconImage": "eggplant_icon.png",
@@ -204,6 +221,7 @@
         "paragraph2": "They also support heart health by lowering cholesterol levels and improving blood flow."
       },
       {
+        "id": 18,
         "category": "vegetable",
         "name": "Potato",
         "iconImage": "potato_icon.png",
@@ -216,6 +234,7 @@
         "paragraph2": "They also contain potassium, which supports heart and muscle health."
       },
       {
+        "id": 19,
         "category": "vegetable",
         "name": "Zucchini",
         "iconImage": "zucchini_icon.png",
@@ -228,6 +247,7 @@
         "paragraph2": "It also contains antioxidants that protect the body from free radical damage."
       },
       {
+        "id": 20,
         "category": "vegetable",
         "name": "Cauliflower",
         "iconImage": "cauliflower_icon.png",
@@ -238,30 +258,6 @@
         "paragraph1": "Cauliflower is a cruciferous vegetable rich in fiber and antioxidants that improve heart health.",
         "image2": "cauliflower_image2.png",
         "paragraph2": "It also contains choline, which supports brain health and cognitive function."
-      },
-      {
-        "category": "vegetable",
-        "name": "Cabbage",
-        "iconImage": "cabbage_icon.png",
-        "vitaminType": "Vitamin K",
-        "title": "Health benefits of Cabbage",
-        "description": "Improves digestion",
-        "image1": "cabbage_image1.png",
-        "paragraph1": "Cabbage is rich in fiber and probiotics, which improve gut health and digestion.",
-        "image2": "cabbage_image2.png",
-        "paragraph2": "It also contains antioxidants that help in detoxifying the body."
-      },
-      {
-        "category": "vegetable",
-        "name": "Onion",
-        "iconImage": "onion_icon.png",
-        "vitaminType": "Vitamin C",
-        "title": "Health benefits of Onions",
-        "description": "Boosts immunity",
-        "image1": "onion_image1.png",
-        "paragraph1": "Onions are known for their high antioxidant content, which boosts the immune system.",
-        "image2": "onion_image2.png",
-        "paragraph2": "They also improve heart health by reducing cholesterol levels and regulating blood sugar."
       }
    
   ]
