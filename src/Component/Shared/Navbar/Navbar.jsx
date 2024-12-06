@@ -1,6 +1,36 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const navLink = (
+    <>
+      <NavLink to={"/"}>
+        <li>
+          <a>Home</a>
+        </li>
+      </NavLink>
+      <NavLink to={"/blog"}>
+        <li>
+          <a>Blog</a>
+        </li>
+      </NavLink>
+      <NavLink to={"/comment"}>
+        <li>
+          <a>Comment</a>
+        </li>
+      </NavLink>
+      <NavLink to={"/video"}>
+        <li>
+          <a>video</a>
+        </li>
+      </NavLink>
+      <NavLink to={"/allItems"}>
+        <li>
+          <a>All Items</a>
+        </li>
+      </NavLink>
+    </>
+  );
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -73,6 +103,9 @@ const Navbar = () => {
         <div className="navbar-end">
           <a className="btn">Button</a>
         </div>
+      </div>
+      <div>
+        <ul className="text-lg space-y-10">{navLink}</ul>
       </div>
     </div>
   );
