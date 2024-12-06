@@ -11,35 +11,35 @@ const Navbar = () => {
   const navLink = (
     <>
       <NavLink to={"/"}>
-        <li>
+        <li className="mb-5">
           <a>
             <RiHome4Line />
           </a>
         </li>
       </NavLink>
       <NavLink to={"/blog"}>
-        <li>
+        <li className="mb-5">
           <a>
             <RiGalleryView2 />
           </a>
         </li>
       </NavLink>
       <NavLink to={"/comment"}>
-        <li>
+        <li className="mb-5">
           <a>
             <BsSend />
           </a>
         </li>
       </NavLink>
       <NavLink to={"/video"}>
-        <li>
+        <li className="mb-5">
           <a>
             <GoVideo />
           </a>
         </li>
       </NavLink>
       <NavLink to={"/allItems"}>
-        <li>
+        <li className="mb-5">
           <a>
             <TiThSmallOutline />
           </a>
