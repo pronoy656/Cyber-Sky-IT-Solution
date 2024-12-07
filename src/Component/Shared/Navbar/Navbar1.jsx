@@ -6,6 +6,8 @@ import { GoCommentDiscussion } from "react-icons/go";
 const Navbar1 = () => {
   return (
     <div className="flex items-center justify-between px-4 py-2 border-b">
+      {/* Logo and Website Name */}
+
       <img
         className="w-12 h-12 rounded-full"
         src="https://i.ibb.co.com/XpGWsYj/Green-Vintage-Agriculture-and-Farming-Logo.png"
@@ -13,7 +15,7 @@ const Navbar1 = () => {
       />
 
       {/* Search Bar (visible only for tablets and laptops) */}
-      <div className=" md:block w-60">
+      <div className="hidden md:block w-60">
         <label className="input input-bordered flex items-center gap-2">
           <input type="text" className="grow" placeholder="Search" />
           <svg
