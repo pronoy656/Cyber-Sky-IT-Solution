@@ -5,7 +5,7 @@ import Navbar1 from "../Shared/Navbar/Navbar1";
 
 const Root = () => {
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <Navbar1></Navbar1>
       <div className="flex space-x-4">
         <div className="w-16 border">
