@@ -11,10 +11,10 @@ const Root = () => {
       </div>
 
       <div className="flex space-x-4">
-        <div className="w-16 mt-40">
+        <div className="w-12 mt-40">
           <Navbar></Navbar>
         </div>
-        <div className="bg-slate-200 p-3 rounded-2xl">
+        <div className="bg-slate-200 p-3 rounded-2xl mb-12">
           <Outlet></Outlet>
         </div>
       </div>

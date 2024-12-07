@@ -10,6 +10,9 @@ import { HiDotsCircleHorizontal } from "react-icons/hi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { MdOutlineSubtitlesOff } from "react-icons/md";
 
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
+
 const Home = () => {
   const [fruits, setFruits] = useState([]);
 
@@ -18,19 +21,36 @@ const Home = () => {
       .then((res) => res.json())
       .then((data) => setFruits(data));
   }, []);
+
+  const handleClick = () => {
+    const searchField = document.getElementById("search-field");
+    const searchText = searchField.value;
+    console.log(searchText);
+  };
   return (
     <div>
-      <div className="flex space-x-4">
-        <div className="w-44  border bg-white rounded-2xl h-[500px]">
+      <div className="flex md:space-x-4 ">
+        <div className="w-44  border bg-white rounded-2xl h-[530px] hidden md:block">
+          <div role="tablist" className="tabs tabs-boxed mb-2 mt-2">
+            <a role="tab" className="tab tab-active">
+              Tab 1
+            </a>
+            <a role="tab" className="tab">
+              Tab 2
+            </a>
+          </div>
           <div className="p-2">
             <input
               className="border w-40 relative p-1 rounded-xl"
               type="search"
               placeholder="Search by fruits"
               name=""
-              id=""
+              id="search-field"
             />
-            <button className="border bg-red-200 p-1 absolute -mt-[30px] ml-[132px]">
+            <button
+              onClick={handleClick}
+              className="border bg-red-200 p-1 absolute -mt-[30px] ml-[132px]"
+            >
               <div className="text-red-400 ">
                 <CiSearch />
               </div>
@@ -44,8 +64,9 @@ const Home = () => {
             ))}
           </div>
         </div>
-        <div className="w-[1050px] border bg-white rounded-3xl  p-8">
-          <div className="flex space-x-5">
+        <div className="w-full max-w-[1050px] border bg-white rounded-3xl p-4 md:p-8 mx-auto">
+          <div className="flex flex-col md:flex-row md:space-x-5">
+            {/* Social Media Icons */}
             <div className="hidden md:flex flex-col space-y-4 mt-12 w-14">
               <div className="text-blue-600 text-lg">
                 <FaFacebook />
@@ -60,75 +81,71 @@ const Home = () => {
                 <HiDotsCircleHorizontal />
               </div>
             </div>
-            <div className="flex items-center space-x-3">
+            {/* Main Content */}
+            <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-3">
               <div>
-                <h1 className="text-4xl font-bold">
+                <h1 className="text-2xl md:text-4xl font-bold">
                   Health Benefits Of An Avocado
                 </h1>
-                <h1 className="text-xl font-bold  mt-4">Supports Eye Health</h1>
+                <h1 className="text-lg md:text-xl font-bold mt-4">
+                  Supports Eye Health
+                </h1>
                 <h1 className="text-gray-600 leading-relaxed mt-2">
-                  {" "}
                   Spinach contains high levels of vitamin A and other
                   antioxidants that help maintain healthy vision and protect
                   against age-related macular degeneration.
                 </h1>
-                <h1 className="text-xl font-bold  mt-4">Supports Eye Health</h1>
+                <h1 className="text-lg md:text-xl font-bold mt-4">
+                  Supports Eye Health
+                </h1>
                 <h1 className="text-gray-600 leading-relaxed mt-2">
-                  {" "}
                   Spinach contains high levels of vitamin A and other
                   antioxidants that help maintain healthy vision and protect
                   against age-related macular degeneration.
                 </h1>
               </div>
-              <div>
+              <div className="w-full md:w-auto">
                 <img
-                  className="w-[1000px] h-[250px] rounded-2xl"
+                  className="w-full md:w-[1000px] h-auto md:h-[250px] rounded-2xl"
                   src="https://i.ibb.co.com/r23RbRW/front-view-fresh-fruits-quinces-lemons-other-fruits-light-table.jpg"
                   alt=""
                 />
               </div>
             </div>
           </div>
-          <div className="md:ml-12 mt-6">
-            <h1 className="text-xl font-bold"> Supports Eye Health</h1>
+          <div className="mt-6 md:ml-12">
+            <h1 className="text-lg md:text-xl font-bold">
+              Supports Eye Health
+            </h1>
             <h1 className="text-gray-600 leading-relaxed mt-2">
-              {" "}
               Spinach contains high levels of vitamin A and other antioxidants
               that help maintain healthy vision and protect against age-related
               macular degeneration. Spinach contains high levels of vitamin A
               and other antioxidants that help maintain healthy vision and
-              protect against age-related macular degeneration. Spinach contains
-              high levels of vitamin A and other antioxidants that help maintain
-              healthy vision and protect against age-related macular
-              degeneration. Spinach contains high levels of vitamin A and other
-              antioxidants that help maintain healthy vision and protect against
-              age-related macular degeneration. Spinach contains high levels of
-              vitamin A and other antioxidants that help maintain healthy vision
-              and protect against age-related macular degeneration.
+              protect against age-related macular degeneration.
             </h1>
           </div>
-          <div className="flex md:ml-12 space-x-8 items-center mt-6">
-            <div>
+          <div className="flex flex-col md:flex-row md:ml-12 md:space-x-8 items-center mt-6 space-y-4 md:space-y-0">
+            <div className="w-full md:w-auto">
               <img
-                className="w-[2200px] h-[250px] rounded-2xl"
+                className="w-full md:w-[1100px] h-auto md:h-[250px] rounded-2xl"
                 src="https://i.ibb.co.com/GngRXtY/fresh-tasty-apples.jpg"
                 alt=""
               />
             </div>
             <div>
-              <h1 className="text-xl font-bold"> Supports Eye Health</h1>
+              <h1 className="text-lg md:text-xl font-bold">
+                Supports Eye Health
+              </h1>
               <h1 className="text-gray-600 leading-relaxed mt-2 dark:text-white">
-                {" "}
                 Spinach contains high levels of vitamin A and other antioxidants
                 that help maintain healthy vision and protect against
-                age-related macular degeneration. Spinach contains high levels
-                of vitamin A and other antioxidants that help maintain healthy
-                vision and protect against age-related macular degeneration.
+                age-related macular degeneration.
               </h1>
             </div>
           </div>
-          {/* Mobile Social Icons above Rating Section */}
-          <div className="flex justify-center space-x-4 my-6 md:hidden">
+          {/* Mobile Social Icons */}
+          <div className="flex justify-center space-x-4 my-2 md:hidden">
             <div className="text-blue-600 text-lg">
               <FaFacebook />
             </div>
@@ -142,7 +159,7 @@ const Home = () => {
               <HiDotsCircleHorizontal />
             </div>
           </div>
-          <div className="md:ml-12 mt-5">
+          <div className="md:mt-5 md:ml-12">
             <h1 className="text-lg font-medium">Was this helpful</h1>
             <div className="flex space-x-2">
               <div className="text-yellow-400">
@@ -164,7 +181,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="w-44 border p-2 bg-white h-60 rounded-2xl">
+        <div className="w-44 border p-2 bg-white h-72 rounded-2xl hidden md:block">
           <div className="flex justify-between items-center">
             <h1 className=" font-medium">Settings</h1>
             <div>
