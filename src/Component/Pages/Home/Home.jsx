@@ -7,6 +7,8 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { HiDotsCircleHorizontal } from "react-icons/hi";
+import { IoSettingsOutline } from "react-icons/io5";
+import { MdOutlineSubtitlesOff } from "react-icons/md";
 
 const Home = () => {
   const [fruits, setFruits] = useState([]);
@@ -87,7 +89,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="ml-12 mt-6">
+          <div className="md:ml-12 mt-6">
             <h1 className="text-xl font-bold"> Supports Eye Health</h1>
             <h1 className="text-gray-600 leading-relaxed mt-2">
               {" "}
@@ -105,7 +107,7 @@ const Home = () => {
               and protect against age-related macular degeneration.
             </h1>
           </div>
-          <div className="flex ml-12 space-x-8 items-center mt-6">
+          <div className="flex md:ml-12 space-x-8 items-center mt-6">
             <div>
               <img
                 className="w-[2200px] h-[250px] rounded-2xl"
@@ -140,7 +142,7 @@ const Home = () => {
               <HiDotsCircleHorizontal />
             </div>
           </div>
-          <div className="ml-12 mt-5">
+          <div className="md:ml-12 mt-5">
             <h1 className="text-lg font-medium">Was this helpful</h1>
             <div className="flex space-x-2">
               <div className="text-yellow-400">
@@ -162,8 +164,44 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="w-44 border border-red-400">
-          <h1>This is Right side</h1>
+        <div className="w-44 border p-2 bg-white h-60 rounded-2xl">
+          <div className="flex justify-between items-center">
+            <h1 className=" font-medium">Settings</h1>
+            <div>
+              <IoSettingsOutline />
+            </div>
+          </div>
+          <h1 className="font-medium mt-2">Paragraph Font Size</h1>
+          <input
+            type="range"
+            min={0}
+            max="100"
+            value="40"
+            className="range range-xs"
+          />
+          <h1 className="font-medium mt-1">Choose Vitamin type</h1>
+          <div className="dropdown dropdown-bottom mt-1">
+            <div tabIndex={0} role="button" className="btn m-1">
+              All Vitamin
+            </div>
+            <ul
+              tabIndex={0}
+              className="dropdown-content menu bg-base-100 rounded-box z-[1] w-40 p-2 shadow"
+            >
+              <li>
+                <a>Vitamin c</a>
+              </li>
+              <li>
+                <a>Vitamin A</a>
+              </li>
+            </ul>
+          </div>
+          <div className="flex justify-between items-center mt-2">
+            <h1 className="font-medium">Turn Off Subtitles</h1>
+            <div>
+              <MdOutlineSubtitlesOff />
+            </div>
+          </div>
         </div>
       </div>
     </div>
