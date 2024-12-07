@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <div>
       <div className="flex md:space-x-4 ">
-        <div className="w-44  border bg-white rounded-2xl h-[530px] hidden md:block">
+        <div className="w-44  border bg-white dark:bg-gray-800 rounded-2xl h-[530px] hidden md:block">
           <div role="tablist" className="tabs tabs-boxed mb-2 mt-2">
             <a role="tab" className="tab tab-active">
               Tab 1
@@ -64,7 +64,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-        <div className="w-full max-w-[1050px] border bg-white rounded-3xl p-4 md:p-8 mx-auto">
+        <div className="w-full max-w-[1050px] border bg-white dark:bg-gray-800 rounded-3xl p-4 md:p-8 mx-auto">
           <div className="flex flex-col md:flex-row md:space-x-5">
             {/* Social Media Icons */}
             <div className="hidden md:flex flex-col space-y-4 mt-12 w-14">
@@ -84,7 +84,7 @@ const Home = () => {
             {/* Main Content */}
             <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-3">
               <div>
-                <h1 className="text-2xl md:text-4xl font-bold">
+                <h1 className="text-2xl dark:text-white md:text-4xl font-bold">
                   Health Benefits Of An Avocado
                 </h1>
                 <h1 className="text-lg md:text-xl font-bold mt-4">
