@@ -5,15 +5,19 @@ import Navbar1 from "../Shared/Navbar/Navbar1";
 
 const Root = () => {
   return (
-    <div className="max-w-7xl mx-auto">
-      <Navbar1></Navbar1>
+    <div>
+      <div className="max-w-7xl mx-auto">
+        <Navbar1></Navbar1>
+      </div>
+
       <div className="flex space-x-4">
-        <div className="w-16 border">
+        <div className="w-16 mt-40">
           <Navbar></Navbar>
         </div>
-        <Outlet></Outlet>
+        <div className="bg-slate-200 p-3 rounded-2xl">
+          <Outlet></Outlet>
+        </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 };

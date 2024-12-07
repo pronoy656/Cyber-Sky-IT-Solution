@@ -19,30 +19,30 @@ const Home = () => {
   return (
     <div>
       <div className="flex space-x-4">
-        <div className="w-44  border border-red-400">
+        <div className="w-44  border bg-white rounded-2xl h-[500px]">
           <div className="p-2">
             <input
-              className="border w-40 relative p-1"
+              className="border w-40 relative p-1 rounded-xl"
               type="search"
               placeholder="Search by fruits"
               name=""
               id=""
             />
-            <button className="border bg-red-200 p-1 absolute -mt-[30px] ml-[135px]">
+            <button className="border bg-red-200 p-1 absolute -mt-[30px] ml-[132px]">
               <div className="text-red-400 ">
                 <CiSearch />
               </div>
             </button>
           </div>
-          <h1>Fruits list</h1>
-          <h1>Total Items: {fruits.length}</h1>
-          <div className="border h-96 overflow-y-auto overflow-x-hidden  scrollbar-thin">
+          <h1 className="font-medium mb-1 ml-1">Fruits list</h1>
+
+          <div className="h-96 overflow-y-auto overflow-x-hidden  scrollbar-thin space-y-2">
             {fruits.map((fruit) => (
               <FruitCategory key={fruit.id} fruit={fruit}></FruitCategory>
             ))}
           </div>
         </div>
-        <div className="w-[1050px] border border-blue-600 p-8">
+        <div className="w-[1050px] border bg-white rounded-3xl  p-8">
           <div className="flex space-x-5">
             <div className="hidden md:flex flex-col space-y-4 mt-12 w-14">
               <div className="text-blue-600 text-lg">
