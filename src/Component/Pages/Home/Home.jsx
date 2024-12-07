@@ -33,10 +33,10 @@ const Home = () => {
         <div className="w-44  border bg-white dark:bg-gray-800 rounded-2xl h-[530px] hidden md:block">
           <div role="tablist" className="tabs tabs-boxed mb-2 mt-2">
             <a role="tab" className="tab tab-active">
-              Tab 1
+              Fruits
             </a>
             <a role="tab" className="tab">
-              Tab 2
+              Vegetable
             </a>
           </div>
           <div className="p-2">
