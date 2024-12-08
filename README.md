@@ -18,18 +18,18 @@ Ensure you have the following installed on your system:
 2. **Git**
 
 ## Steps
-**Open cmd**
-**Navigate to the project directory**
+1. **Open command prompt**
+2. **Navigate to the project directory**
 cd \your-directory-name
-**Clone the repository**
+3. **Clone the repository**
 git clone repository-link
-**Open your compiler**
+4. **Open your compiler**
 code .
-**Install dependencies**
+5. **Install dependencies**
 npm install
 // or
 yarn install
-**Run the project locally**
+6. **Run the project locally**
 npm run dev
 
 ## 📂 Project Structure
